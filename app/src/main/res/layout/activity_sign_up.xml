@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/wall"
+    tools:context="com.example.yashwant.mallapp.ActivitySignUp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="40dp"
+        android:text="Welcome!"
+        android:textSize="30dp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/name1"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Name"
+        android:textSize="16dp"
+        android:background="@drawable/box"
+        android:inputType="textPersonName"
+        />
+
+
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:textSize="16dp"
+        android:background="@drawable/box"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:textSize="16dp"
+        android:hint="Email"
+        android:background="@drawable/box"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="16dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Password"
+        android:background="@drawable/box"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:background="@drawable/box"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="16dp"
+
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Mobile"
+        android:background="@drawable/box"
+        android:inputType="number"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/box"
+        android:layout_width="300dp"
+        android:textSize="16dp"
+        android:popupBackground="@drawable/box_spin"
+        android:layout_gravity="center"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_round"
+        android:gravity="center"
+        android:text="Next"
+
+        android:textColor="#ffff" />
+
+
+</LinearLayout>
