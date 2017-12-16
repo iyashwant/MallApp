@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.yashwant.mallapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"
+
+        />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ActivityLogin"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,12 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".ActivitySignUp"
+        <activity android:name=".ActivityLogin" />
+        <activity
+            android:name=".ActivitySignUp"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainLoginActivity2"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+        <activity
+            android:name=".MainLoginActivity2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".QrActivity"></activity>
     </application>
 
 </manifest>
